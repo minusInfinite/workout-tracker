@@ -8,8 +8,6 @@ Demo: <https://minusinfinite-wt-demo.herokuapp.com/>
 
 [Local Deployment](#local-deployment)
 
-[To-Do](#to-do)
-
 [Examples](#examples)
 
 ## Local Deployment
@@ -63,6 +61,6 @@ You can edit the dataset in seeder/seed.js
 
 ## Example
 
-[Live Demo](https://nodebbs-demo.herokuapp.com/)
+[Live Demo](https://minusinfinite-wt-demo.herokuapp.com/)
 
 ![Animated Demo GIF](/md/workout-demo.gif)
