@@ -27,7 +27,7 @@ apiRouter.put("/workouts/:id", async (req, res) => {
 
 apiRouter.get("/workouts", (req, res) => {
     Workout.find({})
-        .sort({ date: -1 })
+        .sort({ day: -1 })
         .limit(1)
         .then((data) => {
             res.json(data)
@@ -41,7 +41,7 @@ apiRouter.get("/workouts/range", (req, res) => {
     Workout.find({})
         .where("day")
         .gt(new Date(new Date().setDate(new Date().getDate() - 7)))
-        .sort({ date: -1 })
+        .sort({ day: -1 })
         .then((data) => {
             res.json(data)
         })
