@@ -41,7 +41,7 @@ apiRouter.get("/workouts/range", (req, res) => {
     Workout.find({})
         .where("day")
         .gt(new Date(new Date().setDate(new Date().getDate() - 7)))
-        .sort({ day: -1 })
+        .sort({ day: 1 })
         .then((data) => {
             res.json(data)
         })
