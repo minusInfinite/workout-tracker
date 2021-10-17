@@ -1,4 +1,4 @@
-# workout-tracker
+# Workout Tracker
 
 A workout tracker with a mongo server
 
