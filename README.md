@@ -22,7 +22,7 @@ Be sure to have MongoDB setup an running before you download.
 In your terminal download the repo
 
 ```terminal
-git clone https://github.com/minusInfinite/nobeBBS.git
+git clone https://github.com/minusInfinite/workout-tracker.git
 ```
 
 Once downloaded install the dependencies with NPM
