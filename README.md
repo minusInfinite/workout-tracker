@@ -33,7 +33,7 @@ npm install
 
 If you local MongoDB has Authentication setup it might be easier to confirm a Node Environment Parameter. You edit the .env.EXAMPLE file to .env with the following
 
-> MONGODB*URI - \_The database connection URL string*
+> MONGODB_URI - \_The database connection URL string*
 
 You can find more details about MongoDB connection strings here - https://docs.mongodb.com/manual/reference/connection-string/
 
