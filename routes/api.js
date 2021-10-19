@@ -15,12 +15,10 @@ apiRouter.post("/workouts", ({ body }, res) => {
 apiRouter.put("/workouts/:id", async (req, res) => {
     try {
         const doc = await Workout.findById(req.params.id)
-        console.log(req.body)
         doc.exercises.push(req.body)
         const save = await doc.save()
         res.status(200).json(save)
     } catch (err) {
-        console.log(err)
         res.status(400).json(err)
     }
 })
