@@ -1,4 +1,4 @@
-# workout-tracker
+# Workout Tracker
 
 A workout tracker with a mongo server
 
@@ -22,7 +22,7 @@ Be sure to have MongoDB setup an running before you download.
 In your terminal download the repo
 
 ```terminal
-git clone https://github.com/minusInfinite/nobeBBS.git
+git clone https://github.com/minusInfinite/workout-tracker.git
 ```
 
 Once downloaded install the dependencies with NPM
@@ -33,7 +33,7 @@ npm install
 
 If you local MongoDB has Authentication setup it might be easier to confirm a Node Environment Parameter. You edit the .env.EXAMPLE file to .env with the following
 
-> MONGODB*URI - \_The database connection URL string*
+> MONGODB_URI - \_The database connection URL string*
 
 You can find more details about MongoDB connection strings here - https://docs.mongodb.com/manual/reference/connection-string/
 
