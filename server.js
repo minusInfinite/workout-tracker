@@ -24,6 +24,11 @@ app.get("/stats", (req, res) =>
     res.sendFile(path.join(__dirname, "/public/stats.html"))
 )
 
+app.get("/seed", (req, res, next) => {
+    require("./seeders/seed")
+    res.send("Database Seeded")
+})
+
 mongoose
     .connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
         useNewUrlParser: true,
